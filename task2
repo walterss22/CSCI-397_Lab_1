@@ -1,0 +1,11 @@
+My approach to this problem was to calculate the frequency of each letter in the ciphertext, match that with the english
+language frequency table, then map the changes to the ciphertext. This was more difficult than i anticipated, but I was
+greatly assisted by the newly ordered dictionaries as of Python 3.6. Once I had the letters mapped, the "plaintext" still
+looked incredibly ciphered. So I decided to look at the smallest words, one to two letters to try and see if I could figure
+them out. I started by looking at the letters adjacent to those being used and seeing if I could make english words out of
+them. This got me off to a great start. Then I moved on to looking at patterns of words, like verbs that end in -ing,
+repeated vowels, and things like that. Then I looked at words that were almost complete, but still not quite right.
+This strategy got me most of the way to the finish line. Once I could get the basic message of the text, it was pretty easy
+to make the remaining replacements (althought I did have to look up what a clif kid "jbar" was). 
+
+Source for table: Wiki - https://en.wikipedia.org/wiki/Letter_frequency 
