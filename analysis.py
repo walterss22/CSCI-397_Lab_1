@@ -27,7 +27,6 @@ def main():
 
     count, tot = countChars(enc)
     perc = {}
-
     for key in count.keys():
         perc[key] = (count.get(key) / tot) * 100
 
@@ -123,7 +122,7 @@ def main():
 
     #print(plain,"\n")
     plaintxt = open("plain.txt", 'x')
-    plaintxt.write(plain + "\nkey: " + str(table))
+    plaintxt.write(plain)
 
 if __name__ == "__main__":
     main()
