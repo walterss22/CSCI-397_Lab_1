@@ -2,7 +2,8 @@
 Analysis.py
 Author: Scott Walters
 
-This file is meant to crack the subsitution cipher used in encrypted.py
+This file is meant to crack the subsitution cipher used in encrypted.txt and write the plaintext and key to a file
+titled plain.txt
 '''
 
 import io
