@@ -1,0 +1,49 @@
+Author: Scott Walters
+
+Summary:
+Smart home devices are emerging technologies that allow users to impact their homes in various ways via their
+smart devices. Smart locks are door locks that can be locked or unlocked from anywhere using any device with
+an internet connection. Most people use their mobile phone to operate the lock, leaving the user vulnerable to
+home invasion if their phone were somehow lost or stolen. This link between the digital and physical world provides
+malicious actors the opportunity to access an individuals digital and physical assets. The pro's of using such a
+device are minimal, allowing the user to let people into their home while they are away, providing peace of mind
+by virtue of being able to lock their home from anywhere, and not having to worry about forgetting their house key.
+
+Security Goals:
+Two security goals for smart locks are authentication and availability. The authentication principle surrounds
+the idea that it denies impersonation, which would be necessary for this piece of technology to function properly.
+If this were breached, by the exposure of personal data or some other breach, the lock would be rendered useless.
+Impersonation of a homeowner would give the attacker the ability to access the house on their own will or even
+lock the true homeowner out of their home. Availability is another huge issue with smart locks, such that if the 
+system goes down, malfunctions, or is compromised by a power outage, the user may be locked out of their home or 
+malicious actors may be wrongfully given access. This would again put the physical assets of the user in danger 
+of being stolen or otherwise tampered with.
+
+Threats:
+Two threats that could impact this technology could are data leaks or network breaches. If the user, like many, 
+reuse passwords for multiple accounts, a data leak from another site could accidentally leak the information
+needed to break into your home. When data is leaked on the dark web, attackers around the world could gain 
+access to this information, and if they are the user's general location, could burglarize the user. Network
+breaches also pose a serious threat, as many of these devices are required to be connected to a homes wifi 
+network to have full functionality. Should the user's home network be breached by attackers, they would gain 
+the ability to take advantage of both digital and physical assets.
+
+Defenses:
+Two defenses to acheive the security goals outlined above would be two factor authentication and a extensive
+testing. Two factor authentication would require new users to have access to two pieces of the user's
+technology to approve themselves as active users, thwarting attempts at impersonation. This, however, would also 
+require that the user authenticate themselves after a certiain period of time, likely weekly or biweekly. 
+Extensive testing would address issues around power outages or malfunctions, causing the lock to either be engaged
+until receiving some sort of physical input from an authenticated user. Unfortunately, this would not address the 
+scenario of a malicious actor gaining access to the device. 
+
+Conclusion:
+In short, I feel that smart locks are entirely unecessary. Traditional lock and key systems have their own flaws,
+but at least no one can hack their way into your home from across the globe. Smart locks essentially increase the
+number of potential attackers almost infinitely, while providing little gain for the user. They can provide
+information on the coming and going of individuals into homes, but cameras can give the same insight, without
+potentially giving people access to your home. Long term, I do unfortunately see smart locks becoming common place
+in western society, as people become more infatuated with seemingly useless technology. Ethically, I do not think
+that smart locks have any space to exist as they do more harm to the individual than good. Even if you don't want
+to wait at home for the cable guy, why would you just want to let him into your home from your office? Personally,
+I see no appeal to smart locks or even keypad locks for that matter. 

@@ -120,7 +120,9 @@ def main():
     #print(len(enc))
     #print(perc.keys(), "\n")
 
-    #print(plain,"\n")
+    print(plain,"\n")
+    print("Table from cipher to plaintext: " + str(table))
+
     plaintxt = open("plain.txt", 'x')
     plaintxt.write(plain)
 
